@@ -1,0 +1,64 @@
+1a. string
+1b. integer
+1c. date
+1d. float
+1e. integer
+
+2. A database would be used to make searching for data easier, and if multiple applications need to access data. 
+You can use a text file if multiple applications arent using the data and if you want data to persist beyond the end of a program, like a JSON file. 
+
+3. In SQL, you can just use = when you need to compare or pull data instead of having to use == or ===
+
+4. Databases use a table structure to store data that is stored in binary formats. Databases can be accessed and manipulated by using SQL language. 
+
+5. Table is how the data is organized in a way that is visible for the user. Tables are made up of columns and rows. Columns separate data by specific meaning dependin gon the title. Rows represent different entries accross all columns; values that relate to each other. 
+ Values are pieces of information that the column name describe. 
+
+6. strings, integers, float 
+
+7. 
+     SELECT date, amount  
+     FROM payments;    //What are the dates and amounts of the payments entered?
+     date          amount
+   '2016-05-01',     1500.00
+  ('2016-05-10',      37.00
+  ('2016-05-15',      124.93
+  ('2016-05-23',     54.72
+
+
+     SELECT amount
+     FROM payments
+     WHERE amount > 500; //What are amounts for payments greater than 500 dollars?
+
+     amount
+     1500.00
+
+     SELECT *
+     FROM payments
+     WHERE payee = 'Mega Foods'; // WHat are all payments to Mega Foods?
+
+      "date",       "payee",                "amount", "memo"
+     '2016-05-15', 'Mega Foods',            124.93,  'Groceries'
+
+
+8. 
+SELECT email, signup
+FROM users
+WHERE userid = 'DeAndre Data';
+
+    email                          signup
+'datad@comcast.net',            '2008-01-20'
+
+SELECT userid
+FROM users
+WHERE email = 'aleesia.algorithm@uw.edu';
+
+userid
+1
+
+SELECT * 
+FROM users
+WHERE userid = 4;
+
+userid        name                 email                          signup
+4,       'Brandy Boolean',    'bboolean@nasa.gov',            '1999-10-15'
