@@ -2,12 +2,12 @@
 1b. integer
 1c. date
 1d. float
-1e. integer
+1e. money
 
 2. A database would be used to make searching for data easier, and if multiple applications need to access data. 
 You can use a text file if multiple applications arent using the data and if you want data to persist beyond the end of a program, like a JSON file. 
 
-3. In SQL, you can just use = when you need to compare or pull data instead of having to use == or ===
+3. In SQL, you can just use = when you need to compare or pull data instead of having to use == or ===. Also, SQL is a declarative language as opposed to other languages that are procedural.
 
 4. Databases use a table structure to store data that is stored in binary formats. Databases can be accessed and manipulated by using SQL language. 
 
